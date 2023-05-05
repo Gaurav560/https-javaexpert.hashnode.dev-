@@ -3,10 +3,12 @@ title: "Spring  In Java"
 datePublished: Fri May 05 2023 23:31:01 GMT+0000 (Coordinated Universal Time)
 cuid: clhb6wcut000209mfcvlr7k2i
 slug: spring-in-java
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683324155360/b4367afb-8bd3-4a45-a027-def0ea12caf9.webp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683329678521/f8ef1722-aa00-4f89-a4fd-21cec3ed826e.png
 tags: java, web-development, hashnode, springboot, wemakedevs
 
 ---
+
+### <mark>Introduction</mark>
 
 To understand Spring, One must know about Language and technologies in Java. In Java, if u have to learn web development, You have to learn it in three stages.
 
