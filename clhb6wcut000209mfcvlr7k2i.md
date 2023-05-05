@@ -8,7 +8,7 @@ tags: java, web-development, hashnode, springboot, wemakedevs
 
 ---
 
-### <mark>Introduction</mark>
+Intro:
 
 To understand Spring, One must know about Language and technologies in Java. In Java, if u have to learn web development, You have to learn it in three stages.
 
