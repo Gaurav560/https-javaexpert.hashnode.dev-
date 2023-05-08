@@ -136,4 +136,14 @@ Object is created for class ::Footballer
 > 4. `If we are creating an object using a new keyword and the class is not present for which we want to create an object, then it will result in a runtime Exception called NoClassDefFoundError.`
 >     
 > 5. `But if we are creating an object using newInstance() method, and at runtime that class is not present for which object creation is going to take place, then it will result in a run time Exception called ClassNotFound Exception.`
->
+>     
+
+I think this article will give you a good idea of what both terms mean.
+
+If you think this article has been a learning. Let's connect:
+
+Linkedin: [https://www.linkedin.com/in/gaurav4044/](https://www.linkedin.com/in/gaurav4044/)
+
+Github: [https://github.com/Gaurav560](https://github.com/Gaurav560)
+
+Twitter: [https://twitter.com/Sharma1809157](https://twitter.com/Sharma1809157)
