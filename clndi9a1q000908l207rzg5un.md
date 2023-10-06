@@ -12,7 +12,7 @@ tags: artificial-intelligence, java, javascript, coding, 100daysofcode
 
 ## Basic Introduction
 
-In a Java class, when there are multiple methods with the same name but different parameters, we refer to them as overloaded functions. This process is called method overloading. It is also known by different names such as compile time polymorphism, static polymorphism, or early binding polymorphism.
+In a Java class, when there are multiple methods with the same name but different parameters, we refer to them as overloaded functions. This process is called method overloading.
 
 Before delving into this concept, we must first understand the <mark>method signature</mark> in Java.
 
@@ -21,9 +21,8 @@ Before delving into this concept, we must first understand the <mark>method sign
 It is nothing but a method's name and the type of its parameters. Let's see a method declaration in Java:
 
 ```java
-class Football
+public class Football
 {
-public static void main(String[] args) {}
 public static void strike(int i)
 {
     System.out.println("striking is one way of winning the game");
@@ -34,9 +33,8 @@ public static void strike(int i)
 `explanation:` in the above code, we have declared a method named strike that takes an integer-type parameter and returns void. The method signature is strike(int) i.e. method name with parameter type.
 
 ```java
-class Football
+public class Football
 {
-public static void main(String[] args) { }
  public static void defend(String str)
 {
     System.out.println("defending is another way of winning the game");
@@ -51,8 +49,7 @@ public static void main(String[] args) { }
 for example:
 
 ```java
-class Football{
-public static void main(String[] args){ }
+public class Football{
 public static void strike(int i)
 {
     System.out.println("striking hard is one way of winning the game");
@@ -71,7 +68,7 @@ The above code throws a compilation error as the two methods have the same signa
 ## Understanding through Examples
 
 ```java
-class Football
+public class Football
 {
 public static void main(String[] args)
  {
@@ -126,7 +123,9 @@ in the above code, the value 10 is called an argument.
 
 ## Concept of Reference Type and RunTime Object
 
-A very important concept to remember while using method overloading is that when we pass objects as an argument during a method call, the compiler calls and executes the method through object reference type and not run-time object. In method overloading, the run-time object is just a dummy. U will understand this concept more clearly through the following example:
+A very important concept to remember while using method overloading is that when we pass objects as an argument during a method call, the compiler calls and executes the method through object reference type and not run-time object. In method overloading, the run-time object is just a dummy.
+
+Understanding through example:
 
 ```java
 //Parent class of Ferrari Class
@@ -262,11 +261,7 @@ double-arg method
 int-arg method
 ```
 
-## Why it is called compile-time polymorphism?
-
-* Polymorphism because methods with the same name can do different work based on what arguments have been passed during the method call.
-    
-* Compile time because the Compiler checks the method call and matches it with method signatures present in the class body. If the method call matches with method signatures present in the class then it will compile successfully otherwise it will throw a Compilation error. All this is done by the compiler at compile time.
+* `The compiler checks the method call and matches it with method signatures present in the class body. If the method call matches with method signatures present in the class then it will compile successfully otherwise it will throw a Compilation error. All this is done by the compiler at compile time.`
     
 
 ## Some Important Cases to keep in mind:
