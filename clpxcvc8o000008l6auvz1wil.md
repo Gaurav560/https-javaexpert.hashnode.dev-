@@ -157,16 +157,16 @@ If you're dealing with configurations, database data, or just passing informatio
 * **Final by Default:** Records are implicitly `final`, meaning they cannot be further subclassed. If you attempt to extend a record, you'll get a compilation error. This restriction ensures that the behavior of records, particularly their automatic methods, remains consistent.
     
 * ```java
-    // Attempting to extend the Student record
-    // This will result in a compilation error
-    // public class ExtendedStudent extends Student {
-    //     // Compilation error: 'ExtendedStudent' cannot inherit from final 'Student'
-    // }
+      // Attempting to extend the Student record
+      // This will result in a compilation error
+      // public class ExtendedStudent extends Student {
+      //     // Compilation error: 'ExtendedStudent' cannot inherit from final 'Student'
+      // }
     ```
     
 * In Java, records can implement interfaces just like regular classes. When a record implements an interface, it means that the record class agrees to provide concrete implementations for all the methods declared in that interface.
     
-    In the below code,u can see that we have a record named Student that has three fields and implements an interface Displayable.
+    In the below code, you can see that we have a record named Student that has three fields and implements an interface Displayable.
     
     ```java
     interface Displayable {
@@ -223,4 +223,4 @@ Let's connect:
 
 Linkedin: [https://www.linkedin.com/in/gaurav4044/](https://www.linkedin.com/in/gaurav4044/)
 
-Github: [https://www.linkedin.com/in/gaurav4044/](https://www.linkedin.com/in/gaurav4044/)
+Github: [https://github.com/Gaurav560](https://github.com/Gaurav560)
