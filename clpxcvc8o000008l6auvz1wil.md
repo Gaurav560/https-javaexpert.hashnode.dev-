@@ -26,7 +26,7 @@ Imagine you're setting up a system to manage student information. In old Java da
 
 Records simplify this process. They act as a quick shortcut for classes that essentially hold data.
 
-### Practical Explanation
+## Practical Explanation
 
 Before the introduction of records, creating a simple class like Student to store student data was a rather verbose process.
 
@@ -110,7 +110,7 @@ public record StudentRecord(int studentId, String studentName, String studentAdd
 
 That's it. One line of code now accomplishes what used to take 50 lines in earlier versions of Java.
 
-# When to Choose Records?
+## When to Choose Records?
 
 You might be wondering, "When should I use records?" Well, records are perfect when your class's primary role is to store data without a ton of additional logic.
 
@@ -157,11 +157,11 @@ If you're dealing with configurations, database data, or just passing informatio
 * **Final by Default:** Records are implicitly `final`, meaning they cannot be further subclassed. If you attempt to extend a record, you'll get a compilation error. This restriction ensures that the behavior of records, particularly their automatic methods, remains consistent.
     
 * ```java
-      // Attempting to extend the Student record
-      // This will result in a compilation error
-      // public class ExtendedStudent extends Student {
-      //     // Compilation error: 'ExtendedStudent' cannot inherit from final 'Student'
-      // }
+        // Attempting to extend the Student record
+        // This will result in a compilation error
+        // public class ExtendedStudent extends Student {
+        //     // Compilation error: 'ExtendedStudent' cannot inherit from final 'Student'
+        // }
     ```
     
 * In Java, records can implement interfaces just like regular classes. When a record implements an interface, it means that the record class agrees to provide concrete implementations for all the methods declared in that interface.
