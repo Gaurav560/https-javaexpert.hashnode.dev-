@@ -40,9 +40,11 @@ We'll explore how it can make handling exceptions easier and allow you to create
 
 <mark>Note:</mark> We will be focusing on generating a custom exception by passing the age value smaller than or equal to 18 and then handling the exception object and providing error details to the client with the help of the ProblemDetail Class.So, that we can understand how ProblemDetail Class works.
 
-### 1st Step:
+### Step1:
 
-Creating a rest controller class and defining a controller method named vote to register the vote. If the voter age is less than or equal to 18, this rest controller method i.e. vote, is going to throw an object of a custom-defined exception class called AgeNotValidException, which we will be creating further in this article.
+Creating a rest controller class and defining a controller method named vote to register the vote. Certainly! Here's a revised and clear explanation:
+
+In the upcoming sections of this article, we will be creating a custom exception class named `AgeNotValidException`. This class will be utilized in a REST controller method called `vote`. If the age of the voter is less than or equal to 18, the `vote` method will throw an instance of the `AgeNotValidException`. This approach allows us to handle cases where the voter's age is not within the acceptable range gracefully.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701988958474/73ae17f8-518e-46c0-b54b-4e63dd6e37f9.png align="center")
 
